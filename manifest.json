@@ -1,0 +1,16 @@
+{
+  "name": "FB Ghost",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Simple extension for blocking facebook chat status/messages changes",
+  "icons": { "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png" },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["http://*/*", "https://*/*", "webRequest", "webRequestBlocking"]
+}
